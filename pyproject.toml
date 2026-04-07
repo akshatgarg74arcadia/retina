@@ -1,0 +1,17 @@
+[project]
+name = "retina"
+version = "0.1.0"
+description = "Agentic Extraction Pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "smolagents>=1.24.0",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3.0",
+  "ruff>=0.12.0",
+]
